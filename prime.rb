@@ -1,6 +1,9 @@
 def prime?(p)
+  if p < 1
+    return FALSE
+  end  
   for i in 2..(p-1)
-    if (p % i) == 0 || -p > 1
+    if (p % i) == 0
     return FALSE
   end 
 end
