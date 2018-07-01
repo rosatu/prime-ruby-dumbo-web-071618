@@ -1,5 +1,5 @@
 def prime?(p)
-  if p < 1
+  if p <= 1
     return FALSE
   end  
   for i in 2..(p-1)
